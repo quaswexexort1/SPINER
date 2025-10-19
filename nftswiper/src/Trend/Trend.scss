@@ -1,0 +1,96 @@
+.trend_sec{
+    width: 80%;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    .trend_title{
+        width: 35%;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        justify-content: space-between;
+    }
+    ul{
+         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 100%;
+        width: 100%;
+        li{
+            width: 50%;
+            display: flex;
+            align-self: flex-end;
+        }
+        .trend_card{
+            height: 557px;
+            width: 552px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            h5{
+                font-size: 31px;
+            }
+            .text_card{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                p{
+                    color: rgba(196, 196, 196, 1);
+                    font-size: 16px;
+                    span{
+                        color: rgba(212, 0, 179, 1);
+                    }
+                }
+                
+            }
+            .img_cards{
+                position: relative;
+                width: 557px;
+                height: 450px;
+                .w_card{
+                    position: absolute;
+                    bottom: 10%;
+                    right: 10%;
+                }
+                .bg_card{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .trend_btn{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-end;
+            width: 60%;
+            height: 5%;
+            button{
+                width: 154px;
+                height: 100%;
+                background-color: #0D0D0E;
+                border: none;
+                color: rgba(212, 0, 179, 1);
+                font-size: 18px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: flex-end;
+                img{
+                    margin-bottom: 10px;
+                    display: flex;
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@ const Veryinteresting = () => {
     return (
         <section className='Verysection'>
             <div>
-                <p className='Verytext'>
+                <p className='verytext'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
                     eros dolor interdum nulla, ut commodo diam libero vitae erat.                    

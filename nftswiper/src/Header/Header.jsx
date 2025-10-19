@@ -1,9 +1,9 @@
+
 import './Header.scss'
 import logo from '../images/LOGOTYPE.png'
 
 export default function Header() {
   return (
-    <>
       <header className='headerheader'>
         <img src={logo} alt="" />
         <nav>
@@ -16,6 +16,5 @@ export default function Header() {
         </nav>
         <button><h5>Buy Template</h5></button>
       </header>
-    </>
   )
 }

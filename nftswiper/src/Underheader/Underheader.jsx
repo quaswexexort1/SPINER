@@ -24,8 +24,8 @@ const Underheader = () => {
                 <img src={play} alt="" />
              </button>
       </div>
-      <img className='pictureunder' src={chtoto} alt="" />
-      <img className='watermarkunder' src={zalupen} alt="" />
+      <img className='pictureunder' src={zalupen} alt="" />
+      <img className='watermarkunder' src={chtoto} alt="" />
       <div className='kvadrat1'></div>
       <div className='kvadrat2'></div>     
     </section>

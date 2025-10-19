@@ -1,0 +1,48 @@
+.create_sector{
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        height: 20%;
+    }
+    ul{
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        .createe {
+            width: 392px;
+            height: 275px;
+            background-color: #262627;
+            background-image: linear-gradient(to bottom left, transparent 10%, rgba(229, 229, 229, 0.3) 5%, #262627 15%);
+            border: rgba(229, 229, 229, 0.3) 1px solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 80%;
+                height: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h4{
+                    font-size: 23px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                img{
+                    height: 70px;
+                    width: 50px;
+                }
+            }
+           
+        }
+    }
+}

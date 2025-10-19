@@ -6,6 +6,10 @@ import './Krutilka.scss'
 import { Autoplay, FreeMode, Mousewheel, Pagination } from 'swiper/modules';
 import {slider1, slider2} from '../infa.js'
 
+
+
+
+
 const Krutilka = () => {
     const pics1 = slider1.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>)
     const pics2 = slider2.map(item => <SwiperSlide key={item.index}><img src={item.img} alt="" /></SwiperSlide>)

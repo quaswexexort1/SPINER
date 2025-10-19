@@ -1,47 +1,38 @@
 .Verysection{
+    background-color: #262627;
+    height: 60vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #262627;
-    height: 60vh;
-    width: 100%;        
-
     div{
-        justify-content: space-between;
-        align-items: center;
-        .stat_text{
-        font-size: 20px;
-        width: 30%;   
         width: 80%;
         height: 60%;
         display: flex;
-        flex-direction: row;             
-    }
-
-    ul{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        list-style: none;
-        width: 40%;
-        height: 20%;
-        display: flex;      
-        
-        
-        li{
-            text-align: center;
-            h3{
-                font-size: 56px;
-            }
-            p{
-                font-size: 16px;
+        .Verytext{
+            font-size: 20px;
+            width: 30%;
+        }
+        ul{
+            width: 40%;
+            height: 20%;
+             display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+            li{
+                text-align: center;
+                h3{
+                    font-size: 56px;
+                }
+                p{
+                    font-size: 16px;
+                }
             }
         }
     }
-}
-
-.Verytext{
-    font-size: 20px;
-    width: 30%;    
-}
 }
