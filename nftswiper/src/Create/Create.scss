@@ -1,6 +1,6 @@
 .create_sector{
-    width: 80%;
-    height: 45vh;
+    width: 1920px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,8 +9,7 @@
         height: 20%;
     }
     ul{
-        width: 100%;
-        height: 75%;
+        width: 1236px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -20,8 +19,6 @@
             width: 392px;
             height: 275px;
             background-color: #262627;
-            background-image: linear-gradient(to bottom left, transparent 10%, rgba(229, 229, 229, 0.3) 5%, #262627 15%);
-            border: rgba(229, 229, 229, 0.3) 1px solid;
             display: flex;
             justify-content: center;
             align-items: center;

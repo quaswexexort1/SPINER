@@ -5,9 +5,9 @@ const Veryinteresting = () => {
         <section className='Verysection'>
             <div>
                 <p className='verytext'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, 
-                    eros dolor interdum nulla, ut commodo diam libero vitae erat.                    
+                    Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit. 
+                    Suspendisse varius enim in eros <br /> elementum tristique. Duis cursus, mi quis <br /> viverra ornare, 
+                    eros dolor interdum nulla, ut <br /> commodo diam libero vitae erat.                    
                 </p>
 
                 <ul>

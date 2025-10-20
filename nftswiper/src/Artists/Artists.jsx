@@ -5,31 +5,30 @@ import ASDASD from './ASDASD';
 import AAA from './AAA';
 
 const Artists = () => {
-  const [sw, setSw] = useState(0);
-
   return (
     <section className='art_sec'>
       <div className='art_nav'>
-        <button className={`btn_all ${sw === 0 ? 'active' : ''}`} onClick={()=>setSw(0)}>
+        <button className='btn_all active'>
           <div>
-             <div className='btn_view'> 
+            <div className='btn_view'>
               <img src={btn_pic} alt="" />
               <h4><span>View all artists</span></h4>
             </div>
-            <p>Lorem ipsum dolor sit amet, tempor consectetur dolore.</p>
+            <p className='sadsdasaasdasasasdasdsad'>Lorem ipsum dolor sit amet,</p>
           </div>
-         
         </button>
-        <button  className={`btn_popular ${sw === 1 ? 'active' : ''}`} onClick={()=>setSw(1)}> 
+
+        <button className='btn_popular'>
           <h3>Popular artists</h3>
         </button>
       </div>
+
       <div className='art_div'>
-        {sw===0 ? <AAA/> : <ASDASD/>}
+        <AAA />
       </div>
-      
     </section>
   )
 }
+
 
 export default Artists

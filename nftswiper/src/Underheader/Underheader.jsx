@@ -26,8 +26,6 @@ const Underheader = () => {
       </div>
       <img className='pictureunder' src={zalupen} alt="" />
       <img className='watermarkunder' src={chtoto} alt="" />
-      <div className='kvadrat1'></div>
-      <div className='kvadrat2'></div>     
     </section>
   )
 }

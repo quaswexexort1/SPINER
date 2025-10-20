@@ -22,8 +22,8 @@ const Trend = () => {
     <section className='trend_sec'>
       <ul>
         <li className='trend_title'>
-            <h2>Trending this week</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 className='saddsasadsdasdasddsa'>Trending this week</h2>
+            <p className='dsaasdsadasasd'>Lorem ipsum dolor sit amet, consectetur dolore adipiscing <br /> elit, sed do eiusmod tempor incididunt ut labore et dolore <br /> magna aliqua.</p>
         </li>
         {trend_pics}
         <li className='trend_btn'>
