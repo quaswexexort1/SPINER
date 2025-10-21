@@ -57,3 +57,19 @@
     width: 60px;
     height: 60px;
 }
+
+@media (max-width:762px) {
+    .headerheader{
+        width: 762px;
+
+        button{
+            margin-top: 65px;
+        }
+    }
+
+    .headerheader ul{
+        gap: 50px;
+    }
+
+    
+}

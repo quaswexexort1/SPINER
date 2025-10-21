@@ -13,7 +13,7 @@ const Create = () => {
   return (
     <section className='create_sector'>
       <h2>Create and sell NFTs</h2>
-      <ul>
+      <ul className='ssdsasdadsas'>
         {cards}
       </ul>
     </section>

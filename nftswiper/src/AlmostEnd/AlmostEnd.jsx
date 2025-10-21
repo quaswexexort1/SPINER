@@ -23,7 +23,7 @@ const Partners = () => {
         <div className='p_content'>
             <h2>Never miss a drop</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit, sed do eiusmod tempor incididunt.
+              Lorem ipsum dolor sit amet, consectetur dolore adipiscing elit,<br /> sed do eiusmod tempor incididunt.
             </p>
             <form>
               <input type="text" />

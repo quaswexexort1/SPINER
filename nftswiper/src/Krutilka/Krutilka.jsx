@@ -27,6 +27,13 @@ const Krutilka = () => {
               disableOnInteraction: false,
             }}
             mousewheel={true}
+
+            breakpoints={
+              {
+                1024: {slidesPerView:3},
+                762: { slidesPerView:1}
+              }
+            }
             
             modules={[Mousewheel, Autoplay, FreeMode]}
             className="mySwiper"
@@ -44,6 +51,14 @@ const Krutilka = () => {
           disableOnInteraction: false,
         }}
         mousewheel={true}
+
+                    breakpoints={
+              {
+                1024: {slidesPerView:3},
+                762: { slidesPerView:1}
+              }
+            }
+
         
         modules={[Mousewheel, Autoplay, FreeMode]}
         className="mySwiper"

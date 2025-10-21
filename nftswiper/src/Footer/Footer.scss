@@ -71,3 +71,26 @@ footer{
         }
     }
 }
+
+@media (max-width:762px) {
+    footer{
+        width: 762px;
+
+        .bottom_footer{
+            width: 702px;
+            margin-left: 50px;
+        }
+    }
+
+    div{
+        div{
+            ul{
+                margin-left: 20px;
+                gap: 20px;
+            }
+        }
+        ul{
+            margin-right: 100px;
+        }
+    }
+}

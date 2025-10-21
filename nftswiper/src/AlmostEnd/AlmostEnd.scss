@@ -119,3 +119,32 @@
 
     }
 }
+
+@media (max-width:762px) {
+    .p_form{
+        width: 762px !important;
+
+        div{
+            h2{
+                width: 762px;
+            }
+
+            p{
+                width: 762px;
+            }
+            form{
+                button{
+                    margin-top: 73px;
+                }
+            }
+        }
+    }
+
+    .partners_ul{
+        width: 762px !important;
+        gap: 0px;
+    }
+
+    .partners_sec{}
+
+}

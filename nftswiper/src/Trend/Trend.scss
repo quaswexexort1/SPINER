@@ -115,3 +115,35 @@
     letter-spacing: 1px;
   }
 }
+
+
+@media (max-width:762px) {
+  .trend_sec{
+    width: 762px;
+    margin-left: 100px;
+
+    ul{
+      li{
+        
+        h2{
+          font-size: 50px !important;
+        }
+
+        p{
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+
+  .trend_title{
+    width: 762px !important;
+    margin-left: 50px;
+  }
+
+  .trend_card{
+    width: 762px !important;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}

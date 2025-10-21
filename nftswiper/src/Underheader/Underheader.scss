@@ -90,3 +90,34 @@ div{
 
 
 }
+
+
+@media (max-width:762px) {
+    .undersection{
+        width: 762px;
+    }
+    
+    .undertext{
+        div{
+            h1{
+                width: 732px !important;
+                font-size: 50px !important;
+            }
+
+            p{
+                margin-top: 30px;
+                width: 722px !important;
+                font-size: 20px !important;
+            }
+        }
+    }
+
+    .buttonwatch{
+        margin-top: 299px;
+        height: 100px !important;
+        width: 762px !important;
+        z-index: 10 !important;
+       
+    }
+
+}

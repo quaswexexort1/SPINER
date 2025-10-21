@@ -116,3 +116,48 @@
         letter-spacing: 1px;
     }
 }
+
+
+@media (max-width:762px) {
+    .art_sec{
+        width: 762px;
+
+        div{
+            button{
+                h4{
+                    font-size: 15px !important;
+                    width: 200px !important;
+                }
+
+                p{
+                    font-size: 13px !important;
+                    
+                }
+
+                h3{
+                    font-size: 40px !important;
+                }
+            }
+        }
+    }
+
+    .art_ul{
+        width: 762px !important;
+        margin-left: 80px;
+    }
+
+    .bg_pic{
+        width: 220px !important;
+        height: 150px !important;
+    }
+
+    .profile_pic{
+        width: 60px !important;
+        height: 60px !important;
+
+    }
+
+    button{
+        margin-bottom: 70px;
+    }
+}
